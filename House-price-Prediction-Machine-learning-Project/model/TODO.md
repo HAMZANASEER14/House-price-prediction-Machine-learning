@@ -1,0 +1,3 @@
+- [x] Update .dockerignore to exclude House_Price_Data.csv, house_price_prediction.ipynb, user_credentials.db
+- [x] Modify Dockerfile to add pip cache mount for faster installs
+- [ ] Test the Docker build to verify speedup
