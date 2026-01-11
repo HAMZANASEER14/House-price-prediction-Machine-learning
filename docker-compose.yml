@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  house-price-app:
+    build: .
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./model/user_credentials.db:/app/model/user_credentials.db
+    restart: unless-stopped
